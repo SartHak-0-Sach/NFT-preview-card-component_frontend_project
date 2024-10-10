@@ -1,6 +1,12 @@
 html{
     background-color : hsl(217, 54%, 11%);
   }
+
+body{
+    min-height: 100vh;
+    margin: auto;
+    margin-bottom: -50px;
+    margin-top: 50px;
   
   #main{
     margin : 0 auto;
