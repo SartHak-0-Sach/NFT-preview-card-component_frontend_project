@@ -4,7 +4,6 @@ html{
 
 body{
     min-height: 100vh;
-    margin: auto;
     margin-bottom: -50px;
     margin-top: 50px;
   
@@ -16,7 +15,6 @@ body{
     border : 1px solid black;
     border-radius : 20px;
     background-color : hsl(216, 50%, 16%);
-    height : 600px;
   }
   
   #eq-img{
