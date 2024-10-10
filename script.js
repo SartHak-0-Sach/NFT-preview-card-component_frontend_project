@@ -9,6 +9,6 @@ window.onload = (event) => {
          const object_d = document.querySelector('.hov');
          object_d.style.visibility = 'visible';
       }
-      document.querySelector('.img-hover').addEventListener('mouseover',show);
-      document.querySelector('.img-hover').addEventListener('mouseout',hide);
+      document.querySelector('.img-hover').addEventListener('mouseenter', show);
+      document.querySelector('.img-hover').addEventListener('mouseleave', hide);
   };
