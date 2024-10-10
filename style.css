@@ -1,96 +1,106 @@
 html{
     background-color : hsl(217, 54%, 11%);
-  }
+}
 
 body{
     min-height: 100vh;
     margin-bottom: -50px;
     margin-top: 50px;
-  
-  #main{
+}
+
+#main{
     margin : 0 auto;
-    font-family :Outfit;
+    font-family : Outfit;
     font-size : 18px;
     width : 350px;
     border : 1px solid black;
     border-radius : 20px;
     background-color : hsl(216, 50%, 16%);
-  }
-  
-  #eq-img{
+}
+
+#eq-img{
     height : 300px;
     border-radius : 10px ;
-  }
-  
-  #main-header{
+}
+
+#main-header{
     color : white;
-    font-weight : 600px;
+    font-weight : 600;
     font-size : 25px;
-  }
-  #main-content{
+}
+
+#main-content{
     padding : 25px ;
-  }
-  #body-text {
+}
+
+#body-text {
     font-weight : 300;
     color : white;
     opacity : 60% ; 
-  }
-  #left {
+}
+
+#left {
    display : flex; 
-    align-items : center;
-    width :27%;
-    justify-content : space-between ; 
-  }
-  #right {
-     display : flex; 
-    align-items : center;
-    width :29%;
-    justify-content : space-between ; 
-  }
-  #days3{
-     font-weight : 300;
-    color : white;
-    opacity : 60% ;
-    font-size : 14px;
-  }
-  #component{
+   align-items : center;
+   width :27%;
+   justify-content : space-between ; 
+}
+
+#right {
+   display : flex; 
+   align-items : center;
+   width :29%;
+   justify-content : space-between ; 
+}
+
+#days3{
+   font-weight : 300;
+   color : white;
+   opacity : 60% ;
+   font-size : 14px;
+}
+
+#component{
     display : flex;
     justify-content : space-between;
-  }
-  #eth-text{
+}
+
+#eth-text{
     color : hsl(178, 100%, 50%);
-    font-weight : 400px;
+    font-weight : 400;
     font-size : 14px; 
-  }
-  
-  #avatar{
+}
+
+#avatar{
     border : 1px solid white;
     border-radius : 50px;
-  }
-  
-  #line{
+}
+
+#line{
     border: none;
     height: 0.5px;
     opacity : 25%;
     background-color: hsl(215, 51%, 70%)
-  }
-  
-  #bottom{
+}
+
+#bottom{
     width : 57%;
     display : flex;
     justify-content : space-between;
     align-items : center;
-  }
-  #end{
+}
+
+#end{
     color : white;
     font-size : 14px; 
-  }
-  #normal{
-   opacity : 60% ;
+}
+
+#normal{
+    opacity : 60% ;
     font-size : 14px; 
-  }
-  
-  .hov {
+}
+
+.hov {
     visibility : hidden;
     display : block;
     position : absolute;
@@ -99,10 +109,16 @@ body{
     width : 100% ;
     border-radius : 10px;
     cursor : pointer ; 
-    background-color : hsl(178, 100%, 50%,0.6);
-      opacity : 80%;
-  }
-  
-  .rel{
+    background-color : rgba(0, 255, 248, 0.6);
+    opacity : 80%;
+}
+
+.img-hover {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.rel {
     position : relative;
-  }
+}
